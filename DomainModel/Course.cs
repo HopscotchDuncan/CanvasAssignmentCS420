@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DomainModel
 {
-    internal class Course
+    internal class Course : Group
     {
+        public List<Assignment> assignments = new List<Assignment>();
+        public float grade { get; set; }
     }
 }

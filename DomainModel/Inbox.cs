@@ -8,5 +8,6 @@ namespace DomainModel
 {
     internal class Inbox
     {
+        public List<string> messages = new List<string>();
     }
 }

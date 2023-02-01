@@ -8,5 +8,13 @@ namespace DomainModel
 {
     internal class User
     {
+        public string contactInfo { get; set; }
+        public string bio { get; set; }
+        public string links { get; set; }
+
+        public string SendMessage(string message)
+        {
+            return message;
+        }
     }
 }

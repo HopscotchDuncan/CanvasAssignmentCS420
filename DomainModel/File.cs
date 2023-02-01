@@ -8,5 +8,16 @@ namespace DomainModel
 {
     internal class File
     {
+        public FileStream content;
+
+        public void display()
+        {
+
+        }
+
+        public void download()
+        {
+
+        }
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DomainModel
 {
-    internal class Student
+    internal class Student : User
     {
+        public Item MakeItem()
+        {
+            return new Item();
+        }
     }
 }

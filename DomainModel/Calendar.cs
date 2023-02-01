@@ -8,5 +8,6 @@ namespace DomainModel
 {
     internal class Calendar
     {
+        public List<Assignment> assignments = new List<Assignment>();
     }
 }
